@@ -1,0 +1,2 @@
+/afs/athena.mit.edu/user/b/a/baian/Desktop/starter4/build/CMakeFiles/a4.dir
+/afs/athena.mit.edu/user/b/a/baian/Desktop/starter4/build/vecmath/CMakeFiles/vecmath.dir
