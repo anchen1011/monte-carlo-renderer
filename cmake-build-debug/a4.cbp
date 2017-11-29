@@ -5,46 +5,46 @@
 		<Option title="a4"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\clion-2017.2.2\;CMake Files\..\clion-2017.2.2\bin\;CMake Files\..\clion-2017.2.2\bin\cmake\;CMake Files\..\clion-2017.2.2\bin\cmake\share\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\;CMake Files\vecmath\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\clion-2017.2.2\;CMake Files\..\clion-2017.2.2\bin\;CMake Files\..\clion-2017.2.2\bin\cmake\;CMake Files\..\clion-2017.2.2\bin\cmake\share\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\;CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Internal\;CMake Files\vecmath\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mit/baian/Desktop/starter4/cmake-build-debug"/>
+				<Option working_dir="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mit/baian/Desktop/starter4/cmake-build-debug"/>
+				<Option working_dir="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mit/baian/Desktop/starter4/cmake-build-debug"/>
+				<Option working_dir="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="a4">
-				<Option output="/mit/baian/Desktop/starter4/cmake-build-debug/a4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mit/baian/Desktop/starter4/cmake-build-debug"/>
+				<Option output="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/a4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mit/baian/Desktop/starter4/vecmath/include"/>
+					<Add directory="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -55,20 +55,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 a4"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 a4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="a4/fast">
-				<Option output="/mit/baian/Desktop/starter4/cmake-build-debug/a4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mit/baian/Desktop/starter4/cmake-build-debug"/>
+				<Option output="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/a4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mit/baian/Desktop/starter4/vecmath/include"/>
+					<Add directory="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -79,20 +79,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 a4/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 a4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vecmath">
-				<Option output="/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/libvecmath.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mit/baian/Desktop/starter4/cmake-build-debug/vecmath"/>
+				<Option output="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/libvecmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mit/baian/Desktop/starter4/vecmath/include"/>
+					<Add directory="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -103,20 +103,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 vecmath"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 vecmath"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vecmath/fast">
-				<Option output="/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/libvecmath.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mit/baian/Desktop/starter4/cmake-build-debug/vecmath"/>
+				<Option output="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/libvecmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mit/baian/Desktop/starter4/vecmath/include"/>
+					<Add directory="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include"/>
 					<Add directory="/usr/include/c++/4.8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
 					<Add directory="/usr/include/c++/4.8/backward"/>
@@ -127,221 +127,518 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 vecmath/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 vecmath/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mit/baian/Desktop/starter4/src/ArgParser.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/ArgParser.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/ArgParser.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/ArgParser.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Camera.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Camera.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Camera.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Camera.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/CubeMap.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/CubeMap.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/CubeMap.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/CubeMap.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Image.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Image.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Image.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Image.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Light.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Light.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Light.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Light.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Material.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Material.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Material.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Material.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Mesh.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Mesh.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Mesh.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Mesh.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Object3D.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Object3D.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Object3D.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Object3D.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Octree.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Octree.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Octree.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Octree.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Ray.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Ray.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Renderer.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Renderer.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/Renderer.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Renderer.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/SceneParser.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Samplers.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/SceneParser.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/Samplers.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/VecUtils.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/SceneParser.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/VecUtils.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/SceneParser.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/main.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/VecUtils.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/samplers.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/VecUtils.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/samplers.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/main.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/stb.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/stb.cpp">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/stb_image.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/stb_image.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/src/stb_image_write.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/src/stb_image_write.h">
 			<Option target="a4"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/Matrix2f.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix2f.cpp">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/Matrix3f.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix3f.cpp">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/Matrix4f.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix4f.cpp">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/Quat4f.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/Quat4f.cpp">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/Vector2f.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector2f.cpp">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/Vector3f.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector3f.cpp">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/Vector4f.cpp">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector4f.cpp">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/Matrix2f.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/Matrix2f.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/Matrix3f.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/Matrix3f.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/Matrix4f.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/Matrix4f.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/Quat4f.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/Quat4f.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/Vector2f.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/Vector2f.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/Vector3f.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/Vector3f.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/Vector4f.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/Vector4f.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/include/vecmath.h">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/include/vecmath.h">
 			<Option target="vecmath"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/CMakeLists.txt">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeSystemSpecificInitialize.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeUnixFindMake.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeSystemSpecificInformation.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineSystem.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeGenericSystem.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeSystemSpecificInitialize.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeFindCodeBlocks.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCCompiler.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompiler.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/ProcessorCount.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompilerId.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCInformation.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCompilerIdDetection.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeFindBinUtils.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCXXCompiler.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCXXInformation.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompiler.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompilerId.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCompilerIdDetection.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux.cmake">
-			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeFindBinUtils.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/UnixPaths.cmake">
-			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeSystemSpecificInformation.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU-C.cmake">
-			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeGenericSystem.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU.cmake">
-			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeFindCodeBlocks.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU-CXX.cmake">
-			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU.cmake">
-			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/ProcessorCount.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-C.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCInformation.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeTestCCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeTestCompilerCommon.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompilerABI.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeParseImplicitLinkInfo.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCXXInformation.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeTestCXXCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeTestCompilerCommon.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompilerABI.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeParseImplicitLinkInfo.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/ADSP-DetermineCompiler.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/ARMCC-DetermineCompiler.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-CXX.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/AppleClang-DetermineCompiler.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU.cmake">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
 			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
 		</Unit>
-		<Unit filename="/mit/baian/Desktop/starter4/vecmath/CMakeLists.txt">
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Borland-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Bruce-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Clang-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Compaq-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Cray-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Embarcadero-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Fujitsu-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GHS-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/HP-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IAR-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Intel-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/MIPSpro-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/MSVC-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/NVIDIA-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/PGI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/PathScale-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/SCO-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/SDCC-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/SunPro-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/TI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Watcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/XL-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/zOS-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/ADSP-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/ARMCC-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/AppleClang-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Borland-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Clang-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Cray-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Embarcadero-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Fujitsu-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GHS-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/HP-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IAR-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Intel-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/MIPSpro-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/MSVC-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/NVIDIA-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/PGI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/PathScale-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/SCO-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/TI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/Watcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/XL-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-C-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-C-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-C-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-CXX-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-CXX-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-CXX-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-Determine-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/UnixPaths.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Internal/FeatureTesting.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Internal\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/../clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/Internal/FeatureTesting.cmake">
+			<Option virtualFolder="CMake Files\..\clion-2017.2.2\bin\cmake\share\cmake-3.8\Modules\Internal\"/>
+		</Unit>
+		<Unit filename="/mit/baian/Desktop/monte-carlo-renderer/vecmath/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\vecmath\"/>
 		</Unit>
 	</Project>

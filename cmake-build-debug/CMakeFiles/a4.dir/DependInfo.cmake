@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mit/baian/Desktop/starter4/src/ArgParser.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/ArgParser.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Camera.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Camera.cpp.o"
-  "/mit/baian/Desktop/starter4/src/CubeMap.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/CubeMap.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Image.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Image.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Light.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Light.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Material.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Material.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Mesh.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Mesh.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Object3D.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Object3D.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Octree.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Octree.cpp.o"
-  "/mit/baian/Desktop/starter4/src/Renderer.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/Renderer.cpp.o"
-  "/mit/baian/Desktop/starter4/src/SceneParser.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/SceneParser.cpp.o"
-  "/mit/baian/Desktop/starter4/src/VecUtils.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/VecUtils.cpp.o"
-  "/mit/baian/Desktop/starter4/src/main.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/main.cpp.o"
-  "/mit/baian/Desktop/starter4/src/samplers.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/samplers.cpp.o"
-  "/mit/baian/Desktop/starter4/src/stb.cpp" "/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/src/stb.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/ArgParser.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/ArgParser.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Camera.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Camera.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/CubeMap.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/CubeMap.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Image.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Image.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Light.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Light.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Material.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Material.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Mesh.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Mesh.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Object3D.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Object3D.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Octree.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Octree.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Renderer.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Renderer.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/Samplers.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/Samplers.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/SceneParser.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/SceneParser.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/VecUtils.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/VecUtils.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/main.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/main.cpp.o"
+  "/mit/baian/Desktop/monte-carlo-renderer/src/stb.cpp" "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/src/stb.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,7 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mit/baian/Desktop/starter4/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
+  "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

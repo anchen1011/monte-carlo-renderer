@@ -1,4 +1,4 @@
-# Install script for directory: /mit/baian/Desktop/starter4/vecmath
+# Install script for directory: /mit/baian/Desktop/monte-carlo-renderer/vecmath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

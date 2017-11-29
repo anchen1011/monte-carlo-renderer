@@ -43,10 +43,10 @@ RM = /mit/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mit/baian/Desktop/starter4
+CMAKE_SOURCE_DIR = /mit/baian/Desktop/monte-carlo-renderer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mit/baian/Desktop/starter4/cmake-build-debug
+CMAKE_BINARY_DIR = /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a4.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/a4.dir/flags.make
 
 CMakeFiles/a4.dir/src/main.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a4.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/main.cpp.o -c /mit/baian/Desktop/starter4/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a4.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/main.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/main.cpp
 
 CMakeFiles/a4.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/main.cpp > CMakeFiles/a4.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/main.cpp > CMakeFiles/a4.dir/src/main.cpp.i
 
 CMakeFiles/a4.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/main.cpp -o CMakeFiles/a4.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/main.cpp -o CMakeFiles/a4.dir/src/main.cpp.s
 
 CMakeFiles/a4.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/a4.dir/src/main.cpp.o.provides.build: CMakeFiles/a4.dir/src/main.cpp.
 
 CMakeFiles/a4.dir/src/stb.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/stb.cpp.o: ../src/stb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a4.dir/src/stb.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/stb.cpp.o -c /mit/baian/Desktop/starter4/src/stb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a4.dir/src/stb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/stb.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/stb.cpp
 
 CMakeFiles/a4.dir/src/stb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/stb.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/stb.cpp > CMakeFiles/a4.dir/src/stb.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/stb.cpp > CMakeFiles/a4.dir/src/stb.cpp.i
 
 CMakeFiles/a4.dir/src/stb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/stb.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/stb.cpp -o CMakeFiles/a4.dir/src/stb.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/stb.cpp -o CMakeFiles/a4.dir/src/stb.cpp.s
 
 CMakeFiles/a4.dir/src/stb.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/a4.dir/src/stb.cpp.o.provides.build: CMakeFiles/a4.dir/src/stb.cpp.o
 
 CMakeFiles/a4.dir/src/ArgParser.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/ArgParser.cpp.o: ../src/ArgParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a4.dir/src/ArgParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/ArgParser.cpp.o -c /mit/baian/Desktop/starter4/src/ArgParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a4.dir/src/ArgParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/ArgParser.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/ArgParser.cpp
 
 CMakeFiles/a4.dir/src/ArgParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/ArgParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/ArgParser.cpp > CMakeFiles/a4.dir/src/ArgParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/ArgParser.cpp > CMakeFiles/a4.dir/src/ArgParser.cpp.i
 
 CMakeFiles/a4.dir/src/ArgParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/ArgParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/ArgParser.cpp -o CMakeFiles/a4.dir/src/ArgParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/ArgParser.cpp -o CMakeFiles/a4.dir/src/ArgParser.cpp.s
 
 CMakeFiles/a4.dir/src/ArgParser.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/a4.dir/src/ArgParser.cpp.o.provides.build: CMakeFiles/a4.dir/src/ArgP
 
 CMakeFiles/a4.dir/src/Camera.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Camera.cpp.o: ../src/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a4.dir/src/Camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Camera.cpp.o -c /mit/baian/Desktop/starter4/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a4.dir/src/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Camera.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Camera.cpp
 
 CMakeFiles/a4.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Camera.cpp > CMakeFiles/a4.dir/src/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Camera.cpp > CMakeFiles/a4.dir/src/Camera.cpp.i
 
 CMakeFiles/a4.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Camera.cpp -o CMakeFiles/a4.dir/src/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Camera.cpp -o CMakeFiles/a4.dir/src/Camera.cpp.s
 
 CMakeFiles/a4.dir/src/Camera.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/a4.dir/src/Camera.cpp.o.provides.build: CMakeFiles/a4.dir/src/Camera.
 
 CMakeFiles/a4.dir/src/CubeMap.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/CubeMap.cpp.o: ../src/CubeMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a4.dir/src/CubeMap.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/CubeMap.cpp.o -c /mit/baian/Desktop/starter4/src/CubeMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a4.dir/src/CubeMap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/CubeMap.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/CubeMap.cpp
 
 CMakeFiles/a4.dir/src/CubeMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/CubeMap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/CubeMap.cpp > CMakeFiles/a4.dir/src/CubeMap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/CubeMap.cpp > CMakeFiles/a4.dir/src/CubeMap.cpp.i
 
 CMakeFiles/a4.dir/src/CubeMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/CubeMap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/CubeMap.cpp -o CMakeFiles/a4.dir/src/CubeMap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/CubeMap.cpp -o CMakeFiles/a4.dir/src/CubeMap.cpp.s
 
 CMakeFiles/a4.dir/src/CubeMap.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/a4.dir/src/CubeMap.cpp.o.provides.build: CMakeFiles/a4.dir/src/CubeMa
 
 CMakeFiles/a4.dir/src/Image.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Image.cpp.o: ../src/Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a4.dir/src/Image.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Image.cpp.o -c /mit/baian/Desktop/starter4/src/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a4.dir/src/Image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Image.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Image.cpp
 
 CMakeFiles/a4.dir/src/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Image.cpp > CMakeFiles/a4.dir/src/Image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Image.cpp > CMakeFiles/a4.dir/src/Image.cpp.i
 
 CMakeFiles/a4.dir/src/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Image.cpp -o CMakeFiles/a4.dir/src/Image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Image.cpp -o CMakeFiles/a4.dir/src/Image.cpp.s
 
 CMakeFiles/a4.dir/src/Image.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/a4.dir/src/Image.cpp.o.provides.build: CMakeFiles/a4.dir/src/Image.cp
 
 CMakeFiles/a4.dir/src/Light.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Light.cpp.o: ../src/Light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a4.dir/src/Light.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Light.cpp.o -c /mit/baian/Desktop/starter4/src/Light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a4.dir/src/Light.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Light.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Light.cpp
 
 CMakeFiles/a4.dir/src/Light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Light.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Light.cpp > CMakeFiles/a4.dir/src/Light.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Light.cpp > CMakeFiles/a4.dir/src/Light.cpp.i
 
 CMakeFiles/a4.dir/src/Light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Light.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Light.cpp -o CMakeFiles/a4.dir/src/Light.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Light.cpp -o CMakeFiles/a4.dir/src/Light.cpp.s
 
 CMakeFiles/a4.dir/src/Light.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/a4.dir/src/Light.cpp.o.provides.build: CMakeFiles/a4.dir/src/Light.cp
 
 CMakeFiles/a4.dir/src/Material.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Material.cpp.o: ../src/Material.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a4.dir/src/Material.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Material.cpp.o -c /mit/baian/Desktop/starter4/src/Material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a4.dir/src/Material.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Material.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Material.cpp
 
 CMakeFiles/a4.dir/src/Material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Material.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Material.cpp > CMakeFiles/a4.dir/src/Material.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Material.cpp > CMakeFiles/a4.dir/src/Material.cpp.i
 
 CMakeFiles/a4.dir/src/Material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Material.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Material.cpp -o CMakeFiles/a4.dir/src/Material.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Material.cpp -o CMakeFiles/a4.dir/src/Material.cpp.s
 
 CMakeFiles/a4.dir/src/Material.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/a4.dir/src/Material.cpp.o.provides.build: CMakeFiles/a4.dir/src/Mater
 
 CMakeFiles/a4.dir/src/Mesh.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Mesh.cpp.o: ../src/Mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a4.dir/src/Mesh.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Mesh.cpp.o -c /mit/baian/Desktop/starter4/src/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a4.dir/src/Mesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Mesh.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Mesh.cpp
 
 CMakeFiles/a4.dir/src/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Mesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Mesh.cpp > CMakeFiles/a4.dir/src/Mesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Mesh.cpp > CMakeFiles/a4.dir/src/Mesh.cpp.i
 
 CMakeFiles/a4.dir/src/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Mesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Mesh.cpp -o CMakeFiles/a4.dir/src/Mesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Mesh.cpp -o CMakeFiles/a4.dir/src/Mesh.cpp.s
 
 CMakeFiles/a4.dir/src/Mesh.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/a4.dir/src/Mesh.cpp.o.provides.build: CMakeFiles/a4.dir/src/Mesh.cpp.
 
 CMakeFiles/a4.dir/src/Object3D.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Object3D.cpp.o: ../src/Object3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a4.dir/src/Object3D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Object3D.cpp.o -c /mit/baian/Desktop/starter4/src/Object3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a4.dir/src/Object3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Object3D.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Object3D.cpp
 
 CMakeFiles/a4.dir/src/Object3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Object3D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Object3D.cpp > CMakeFiles/a4.dir/src/Object3D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Object3D.cpp > CMakeFiles/a4.dir/src/Object3D.cpp.i
 
 CMakeFiles/a4.dir/src/Object3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Object3D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Object3D.cpp -o CMakeFiles/a4.dir/src/Object3D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Object3D.cpp -o CMakeFiles/a4.dir/src/Object3D.cpp.s
 
 CMakeFiles/a4.dir/src/Object3D.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/a4.dir/src/Object3D.cpp.o.provides.build: CMakeFiles/a4.dir/src/Objec
 
 CMakeFiles/a4.dir/src/Octree.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Octree.cpp.o: ../src/Octree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a4.dir/src/Octree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Octree.cpp.o -c /mit/baian/Desktop/starter4/src/Octree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a4.dir/src/Octree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Octree.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Octree.cpp
 
 CMakeFiles/a4.dir/src/Octree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Octree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Octree.cpp > CMakeFiles/a4.dir/src/Octree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Octree.cpp > CMakeFiles/a4.dir/src/Octree.cpp.i
 
 CMakeFiles/a4.dir/src/Octree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Octree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Octree.cpp -o CMakeFiles/a4.dir/src/Octree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Octree.cpp -o CMakeFiles/a4.dir/src/Octree.cpp.s
 
 CMakeFiles/a4.dir/src/Octree.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/a4.dir/src/Octree.cpp.o.provides.build: CMakeFiles/a4.dir/src/Octree.
 
 CMakeFiles/a4.dir/src/Renderer.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a4.dir/src/Renderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Renderer.cpp.o -c /mit/baian/Desktop/starter4/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a4.dir/src/Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Renderer.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Renderer.cpp
 
 CMakeFiles/a4.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/Renderer.cpp > CMakeFiles/a4.dir/src/Renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Renderer.cpp > CMakeFiles/a4.dir/src/Renderer.cpp.i
 
 CMakeFiles/a4.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/Renderer.cpp -o CMakeFiles/a4.dir/src/Renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Renderer.cpp -o CMakeFiles/a4.dir/src/Renderer.cpp.s
 
 CMakeFiles/a4.dir/src/Renderer.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/a4.dir/src/Renderer.cpp.o.provides.build: CMakeFiles/a4.dir/src/Rende
 
 CMakeFiles/a4.dir/src/SceneParser.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/SceneParser.cpp.o: ../src/SceneParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/a4.dir/src/SceneParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/SceneParser.cpp.o -c /mit/baian/Desktop/starter4/src/SceneParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/a4.dir/src/SceneParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/SceneParser.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/SceneParser.cpp
 
 CMakeFiles/a4.dir/src/SceneParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/SceneParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/SceneParser.cpp > CMakeFiles/a4.dir/src/SceneParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/SceneParser.cpp > CMakeFiles/a4.dir/src/SceneParser.cpp.i
 
 CMakeFiles/a4.dir/src/SceneParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/SceneParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/SceneParser.cpp -o CMakeFiles/a4.dir/src/SceneParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/SceneParser.cpp -o CMakeFiles/a4.dir/src/SceneParser.cpp.s
 
 CMakeFiles/a4.dir/src/SceneParser.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/a4.dir/src/SceneParser.cpp.o.provides.build: CMakeFiles/a4.dir/src/Sc
 
 CMakeFiles/a4.dir/src/VecUtils.cpp.o: CMakeFiles/a4.dir/flags.make
 CMakeFiles/a4.dir/src/VecUtils.cpp.o: ../src/VecUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/a4.dir/src/VecUtils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/VecUtils.cpp.o -c /mit/baian/Desktop/starter4/src/VecUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/a4.dir/src/VecUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/VecUtils.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/VecUtils.cpp
 
 CMakeFiles/a4.dir/src/VecUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/VecUtils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/VecUtils.cpp > CMakeFiles/a4.dir/src/VecUtils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/VecUtils.cpp > CMakeFiles/a4.dir/src/VecUtils.cpp.i
 
 CMakeFiles/a4.dir/src/VecUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/VecUtils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/VecUtils.cpp -o CMakeFiles/a4.dir/src/VecUtils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/VecUtils.cpp -o CMakeFiles/a4.dir/src/VecUtils.cpp.s
 
 CMakeFiles/a4.dir/src/VecUtils.cpp.o.requires:
 
@@ -393,28 +393,28 @@ CMakeFiles/a4.dir/src/VecUtils.cpp.o.provides: CMakeFiles/a4.dir/src/VecUtils.cp
 CMakeFiles/a4.dir/src/VecUtils.cpp.o.provides.build: CMakeFiles/a4.dir/src/VecUtils.cpp.o
 
 
-CMakeFiles/a4.dir/src/samplers.cpp.o: CMakeFiles/a4.dir/flags.make
-CMakeFiles/a4.dir/src/samplers.cpp.o: ../src/samplers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/a4.dir/src/samplers.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/samplers.cpp.o -c /mit/baian/Desktop/starter4/src/samplers.cpp
+CMakeFiles/a4.dir/src/Samplers.cpp.o: CMakeFiles/a4.dir/flags.make
+CMakeFiles/a4.dir/src/Samplers.cpp.o: ../src/Samplers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/a4.dir/src/Samplers.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a4.dir/src/Samplers.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/src/Samplers.cpp
 
-CMakeFiles/a4.dir/src/samplers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/samplers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/starter4/src/samplers.cpp > CMakeFiles/a4.dir/src/samplers.cpp.i
+CMakeFiles/a4.dir/src/Samplers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a4.dir/src/Samplers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/src/Samplers.cpp > CMakeFiles/a4.dir/src/Samplers.cpp.i
 
-CMakeFiles/a4.dir/src/samplers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/samplers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/starter4/src/samplers.cpp -o CMakeFiles/a4.dir/src/samplers.cpp.s
+CMakeFiles/a4.dir/src/Samplers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a4.dir/src/Samplers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/src/Samplers.cpp -o CMakeFiles/a4.dir/src/Samplers.cpp.s
 
-CMakeFiles/a4.dir/src/samplers.cpp.o.requires:
+CMakeFiles/a4.dir/src/Samplers.cpp.o.requires:
 
-.PHONY : CMakeFiles/a4.dir/src/samplers.cpp.o.requires
+.PHONY : CMakeFiles/a4.dir/src/Samplers.cpp.o.requires
 
-CMakeFiles/a4.dir/src/samplers.cpp.o.provides: CMakeFiles/a4.dir/src/samplers.cpp.o.requires
-	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/samplers.cpp.o.provides.build
-.PHONY : CMakeFiles/a4.dir/src/samplers.cpp.o.provides
+CMakeFiles/a4.dir/src/Samplers.cpp.o.provides: CMakeFiles/a4.dir/src/Samplers.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/Samplers.cpp.o.provides.build
+.PHONY : CMakeFiles/a4.dir/src/Samplers.cpp.o.provides
 
-CMakeFiles/a4.dir/src/samplers.cpp.o.provides.build: CMakeFiles/a4.dir/src/samplers.cpp.o
+CMakeFiles/a4.dir/src/Samplers.cpp.o.provides.build: CMakeFiles/a4.dir/src/Samplers.cpp.o
 
 
 # Object files for target a4
@@ -433,7 +433,7 @@ a4_OBJECTS = \
 "CMakeFiles/a4.dir/src/Renderer.cpp.o" \
 "CMakeFiles/a4.dir/src/SceneParser.cpp.o" \
 "CMakeFiles/a4.dir/src/VecUtils.cpp.o" \
-"CMakeFiles/a4.dir/src/samplers.cpp.o"
+"CMakeFiles/a4.dir/src/Samplers.cpp.o"
 
 # External object files for target a4
 a4_EXTERNAL_OBJECTS =
@@ -452,11 +452,11 @@ a4: CMakeFiles/a4.dir/src/Octree.cpp.o
 a4: CMakeFiles/a4.dir/src/Renderer.cpp.o
 a4: CMakeFiles/a4.dir/src/SceneParser.cpp.o
 a4: CMakeFiles/a4.dir/src/VecUtils.cpp.o
-a4: CMakeFiles/a4.dir/src/samplers.cpp.o
+a4: CMakeFiles/a4.dir/src/Samplers.cpp.o
 a4: CMakeFiles/a4.dir/build.make
 a4: vecmath/libvecmath.a
 a4: CMakeFiles/a4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable a4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable a4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -478,7 +478,7 @@ CMakeFiles/a4.dir/requires: CMakeFiles/a4.dir/src/Octree.cpp.o.requires
 CMakeFiles/a4.dir/requires: CMakeFiles/a4.dir/src/Renderer.cpp.o.requires
 CMakeFiles/a4.dir/requires: CMakeFiles/a4.dir/src/SceneParser.cpp.o.requires
 CMakeFiles/a4.dir/requires: CMakeFiles/a4.dir/src/VecUtils.cpp.o.requires
-CMakeFiles/a4.dir/requires: CMakeFiles/a4.dir/src/samplers.cpp.o.requires
+CMakeFiles/a4.dir/requires: CMakeFiles/a4.dir/src/Samplers.cpp.o.requires
 
 .PHONY : CMakeFiles/a4.dir/requires
 
@@ -487,6 +487,6 @@ CMakeFiles/a4.dir/clean:
 .PHONY : CMakeFiles/a4.dir/clean
 
 CMakeFiles/a4.dir/depend:
-	cd /mit/baian/Desktop/starter4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mit/baian/Desktop/starter4 /mit/baian/Desktop/starter4 /mit/baian/Desktop/starter4/cmake-build-debug /mit/baian/Desktop/starter4/cmake-build-debug /mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/a4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mit/baian/Desktop/monte-carlo-renderer /mit/baian/Desktop/monte-carlo-renderer /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/a4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/a4.dir/depend
 

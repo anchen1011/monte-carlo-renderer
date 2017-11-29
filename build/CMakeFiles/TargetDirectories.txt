@@ -1,2 +1,2 @@
-/afs/athena.mit.edu/user/b/a/baian/Desktop/starter4/build/CMakeFiles/a4.dir
-/afs/athena.mit.edu/user/b/a/baian/Desktop/starter4/build/vecmath/CMakeFiles/vecmath.dir
+/afs/athena.mit.edu/user/b/a/baian/Desktop/monte-carlo-renderer/build/CMakeFiles/a4.dir
+/afs/athena.mit.edu/user/b/a/baian/Desktop/monte-carlo-renderer/build/vecmath/CMakeFiles/vecmath.dir

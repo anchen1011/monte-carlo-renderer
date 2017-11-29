@@ -1,4 +1,4 @@
-# Install script for directory: /afs/athena.mit.edu/user/b/a/baian/Desktop/starter4/vecmath
+# Install script for directory: /afs/athena.mit.edu/user/b/a/baian/Desktop/monte-carlo-renderer/vecmath
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -48,10 +48,10 @@ RM = /mit/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mit/baian/Desktop/starter4
+CMAKE_SOURCE_DIR = /mit/baian/Desktop/monte-carlo-renderer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mit/baian/Desktop/starter4/cmake-build-debug
+CMAKE_BINARY_DIR = /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles /mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mit/baian/Desktop/starter4/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -406,6 +406,33 @@ src/Renderer.cpp.s:
 	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
+src/Samplers.o: src/Samplers.cpp.o
+
+.PHONY : src/Samplers.o
+
+# target to build an object file
+src/Samplers.cpp.o:
+	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/Samplers.cpp.o
+.PHONY : src/Samplers.cpp.o
+
+src/Samplers.i: src/Samplers.cpp.i
+
+.PHONY : src/Samplers.i
+
+# target to preprocess a source file
+src/Samplers.cpp.i:
+	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/Samplers.cpp.i
+.PHONY : src/Samplers.cpp.i
+
+src/Samplers.s: src/Samplers.cpp.s
+
+.PHONY : src/Samplers.s
+
+# target to generate assembly for a file
+src/Samplers.cpp.s:
+	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/Samplers.cpp.s
+.PHONY : src/Samplers.cpp.s
+
 src/SceneParser.o: src/SceneParser.cpp.o
 
 .PHONY : src/SceneParser.o
@@ -487,33 +514,6 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/samplers.o: src/samplers.cpp.o
-
-.PHONY : src/samplers.o
-
-# target to build an object file
-src/samplers.cpp.o:
-	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/samplers.cpp.o
-.PHONY : src/samplers.cpp.o
-
-src/samplers.i: src/samplers.cpp.i
-
-.PHONY : src/samplers.i
-
-# target to preprocess a source file
-src/samplers.cpp.i:
-	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/samplers.cpp.i
-.PHONY : src/samplers.cpp.i
-
-src/samplers.s: src/samplers.cpp.s
-
-.PHONY : src/samplers.s
-
-# target to generate assembly for a file
-src/samplers.cpp.s:
-	$(MAKE) -f CMakeFiles/a4.dir/build.make CMakeFiles/a4.dir/src/samplers.cpp.s
-.PHONY : src/samplers.cpp.s
-
 src/stb.o: src/stb.cpp.o
 
 .PHONY : src/stb.o
@@ -581,6 +581,9 @@ help:
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
+	@echo "... src/Samplers.o"
+	@echo "... src/Samplers.i"
+	@echo "... src/Samplers.s"
 	@echo "... src/SceneParser.o"
 	@echo "... src/SceneParser.i"
 	@echo "... src/SceneParser.s"
@@ -590,9 +593,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/samplers.o"
-	@echo "... src/samplers.i"
-	@echo "... src/samplers.s"
 	@echo "... src/stb.o"
 	@echo "... src/stb.i"
 	@echo "... src/stb.s"

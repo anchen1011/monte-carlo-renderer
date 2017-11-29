@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mit/baian/Desktop/starter4/vecmath/include 
+CXX_INCLUDES = -I/mit/baian/Desktop/monte-carlo-renderer/vecmath/include 
 

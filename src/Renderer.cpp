@@ -95,9 +95,16 @@ Renderer::traceRay(const Ray &r,
             if (_args.shadows && ret && tmpHit.getT() > esp && tmpHit.getT() * dirToLight.abs() < distToLight)
                 continue;
             auto ratioLight = h.getMaterial()->shadeBrdf(r,Ray(r.pointAtParameter(h.getT()),dirToLight),h);
-            illumination += ratioLight * lightIntensity / std::min(0.5f, distToLight * distToLight)
-                            * std::max(0.0f,Vector3f::dot(r.getDirection().normalized(),h.getNormal().normalized()));
+            //std::cout << ratioLight << " " << lightIntensity.x() << "," << lightIntensity.y() << "," << lightIntensity.z() << " " << std::max(0.0f,Vector3f::dot(-r.getDirection().normalized(),h.getNormal().normalized())) << std::endl;
+            //std::cout << distToLight << " ";
+            illumination += ratioLight * lightIntensity
+                            * std::max(0.0f,Vector3f::dot(-r.getDirection().normalized(),h.getNormal().normalized()));
         }
+
+        //std::cout << illumination.x() << "," << illumination.y() << "," << illumination.z() << std::endl;
+
+        if (bounces == 0)
+            return illumination;
 
         auto outRs = NaiveSampler::sample(r, h);
 
@@ -106,15 +113,9 @@ Renderer::traceRay(const Ray &r,
             auto ratioOutR = h.getMaterial()->shadeBrdf(r,outR,h);
             auto tmpHit2 = Hit();
             illumination += volume * ratioOutR * traceRay(outR, esp, bounces-1, tmpHit2)
-                            * std::max(0.0f,Vector3f::dot(r.getDirection().normalized(),h.getNormal().normalized()));
+                            * std::max(0.0f,Vector3f::dot(-r.getDirection().normalized(),h.getNormal().normalized()));
         }
-        if (bounces == 0)
-            return illumination;
-//        auto r_reflect_dir = r.getDirection() - (2 * Vector3f::dot(r.getDirection(), h.getNormal().normalized()) * h.getNormal().normalized());
-//        Ray r_reflect = Ray(r.pointAtParameter(h.getT()), r_reflect_dir);
-//        Hit new_hit = Hit();
-//        auto iIndirect = traceRay(r_reflect, esp, bounces-1, new_hit);
-//        return illumination + (h.getMaterial()->getSpecularColor() * iIndirect);
+
         return illumination;
     } else {
         return _scene.getBackgroundColor(r.getDirection());
