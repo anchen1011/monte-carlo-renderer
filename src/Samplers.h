@@ -9,9 +9,15 @@
 #include <vector>
 #include "Ray.h"
 
+
 class NaiveSampler {
 public:
-    static std::vector<Ray> sample(Ray inR, Hit h);
+    static std::vector<Ray> sample(Ray inR, Hit h, int num=4);
+};
+
+class MonteCarloSampler {
+public:
+    static std::vector<Ray> sample(Ray inR, Hit h, int num=4);
 };
 
 

@@ -106,7 +106,8 @@ Renderer::traceRay(const Ray &r,
         if (bounces == 0)
             return illumination;
 
-        auto outRs = NaiveSampler::sample(r, h);
+        //auto outRs = NaiveSampler::sample(r, h);
+        auto outRs = MonteCarloSampler::sample(r, h, 4);
 
         for (const Ray &outR:outRs) {
             float volume = 1.0f / outRs.size();
