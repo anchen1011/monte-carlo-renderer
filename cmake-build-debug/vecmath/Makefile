@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mit/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /mit/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mit/baian/Desktop/monte-carlo-renderer
+CMAKE_SOURCE_DIR = /Users/chenbaian/Desktop/monte-carlo-renderer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/afs/athena.mit.edu/user/b/a/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/afs/athena.mit.edu/user/b/a/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/CMakeFiles/progress.marks
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles 0
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/CMakeFiles/progress.marks
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/clean
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/preinstall
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/preinstall
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vecmath/CMakeFiles/vecmath.dir/rule:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/CMakeFiles/vecmath.dir/rule
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 vecmath/CMakeFiles/vecmath.dir/rule
 .PHONY : vecmath/CMakeFiles/vecmath.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ vecmath: vecmath/CMakeFiles/vecmath.dir/rule
 
 # fast build rule for target.
 vecmath/fast:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/build
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/build
 .PHONY : vecmath/fast
 
 Matrix2f.o: Matrix2f.cpp.o
@@ -131,7 +131,7 @@ Matrix2f.o: Matrix2f.cpp.o
 
 # target to build an object file
 Matrix2f.cpp.o:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o
 .PHONY : Matrix2f.cpp.o
 
 Matrix2f.i: Matrix2f.cpp.i
@@ -140,7 +140,7 @@ Matrix2f.i: Matrix2f.cpp.i
 
 # target to preprocess a source file
 Matrix2f.cpp.i:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.i
 .PHONY : Matrix2f.cpp.i
 
 Matrix2f.s: Matrix2f.cpp.s
@@ -149,7 +149,7 @@ Matrix2f.s: Matrix2f.cpp.s
 
 # target to generate assembly for a file
 Matrix2f.cpp.s:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.s
 .PHONY : Matrix2f.cpp.s
 
 Matrix3f.o: Matrix3f.cpp.o
@@ -158,7 +158,7 @@ Matrix3f.o: Matrix3f.cpp.o
 
 # target to build an object file
 Matrix3f.cpp.o:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o
 .PHONY : Matrix3f.cpp.o
 
 Matrix3f.i: Matrix3f.cpp.i
@@ -167,7 +167,7 @@ Matrix3f.i: Matrix3f.cpp.i
 
 # target to preprocess a source file
 Matrix3f.cpp.i:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.i
 .PHONY : Matrix3f.cpp.i
 
 Matrix3f.s: Matrix3f.cpp.s
@@ -176,7 +176,7 @@ Matrix3f.s: Matrix3f.cpp.s
 
 # target to generate assembly for a file
 Matrix3f.cpp.s:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.s
 .PHONY : Matrix3f.cpp.s
 
 Matrix4f.o: Matrix4f.cpp.o
@@ -185,7 +185,7 @@ Matrix4f.o: Matrix4f.cpp.o
 
 # target to build an object file
 Matrix4f.cpp.o:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o
 .PHONY : Matrix4f.cpp.o
 
 Matrix4f.i: Matrix4f.cpp.i
@@ -194,7 +194,7 @@ Matrix4f.i: Matrix4f.cpp.i
 
 # target to preprocess a source file
 Matrix4f.cpp.i:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.i
 .PHONY : Matrix4f.cpp.i
 
 Matrix4f.s: Matrix4f.cpp.s
@@ -203,7 +203,7 @@ Matrix4f.s: Matrix4f.cpp.s
 
 # target to generate assembly for a file
 Matrix4f.cpp.s:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.s
 .PHONY : Matrix4f.cpp.s
 
 Quat4f.o: Quat4f.cpp.o
@@ -212,7 +212,7 @@ Quat4f.o: Quat4f.cpp.o
 
 # target to build an object file
 Quat4f.cpp.o:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o
 .PHONY : Quat4f.cpp.o
 
 Quat4f.i: Quat4f.cpp.i
@@ -221,7 +221,7 @@ Quat4f.i: Quat4f.cpp.i
 
 # target to preprocess a source file
 Quat4f.cpp.i:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.i
 .PHONY : Quat4f.cpp.i
 
 Quat4f.s: Quat4f.cpp.s
@@ -230,7 +230,7 @@ Quat4f.s: Quat4f.cpp.s
 
 # target to generate assembly for a file
 Quat4f.cpp.s:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.s
 .PHONY : Quat4f.cpp.s
 
 Vector2f.o: Vector2f.cpp.o
@@ -239,7 +239,7 @@ Vector2f.o: Vector2f.cpp.o
 
 # target to build an object file
 Vector2f.cpp.o:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o
 .PHONY : Vector2f.cpp.o
 
 Vector2f.i: Vector2f.cpp.i
@@ -248,7 +248,7 @@ Vector2f.i: Vector2f.cpp.i
 
 # target to preprocess a source file
 Vector2f.cpp.i:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.i
 .PHONY : Vector2f.cpp.i
 
 Vector2f.s: Vector2f.cpp.s
@@ -257,7 +257,7 @@ Vector2f.s: Vector2f.cpp.s
 
 # target to generate assembly for a file
 Vector2f.cpp.s:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.s
 .PHONY : Vector2f.cpp.s
 
 Vector3f.o: Vector3f.cpp.o
@@ -266,7 +266,7 @@ Vector3f.o: Vector3f.cpp.o
 
 # target to build an object file
 Vector3f.cpp.o:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o
 .PHONY : Vector3f.cpp.o
 
 Vector3f.i: Vector3f.cpp.i
@@ -275,7 +275,7 @@ Vector3f.i: Vector3f.cpp.i
 
 # target to preprocess a source file
 Vector3f.cpp.i:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.i
 .PHONY : Vector3f.cpp.i
 
 Vector3f.s: Vector3f.cpp.s
@@ -284,7 +284,7 @@ Vector3f.s: Vector3f.cpp.s
 
 # target to generate assembly for a file
 Vector3f.cpp.s:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.s
 .PHONY : Vector3f.cpp.s
 
 Vector4f.o: Vector4f.cpp.o
@@ -293,7 +293,7 @@ Vector4f.o: Vector4f.cpp.o
 
 # target to build an object file
 Vector4f.cpp.o:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o
 .PHONY : Vector4f.cpp.o
 
 Vector4f.i: Vector4f.cpp.i
@@ -302,7 +302,7 @@ Vector4f.i: Vector4f.cpp.i
 
 # target to preprocess a source file
 Vector4f.cpp.i:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.i
 .PHONY : Vector4f.cpp.i
 
 Vector4f.s: Vector4f.cpp.s
@@ -311,7 +311,7 @@ Vector4f.s: Vector4f.cpp.s
 
 # target to generate assembly for a file
 Vector4f.cpp.s:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.s
 .PHONY : Vector4f.cpp.s
 
 # Help Target
@@ -355,6 +355,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

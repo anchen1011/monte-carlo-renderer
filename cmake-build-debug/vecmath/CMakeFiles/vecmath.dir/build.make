@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mit/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /mit/baian/Desktop/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mit/baian/Desktop/monte-carlo-renderer
+CMAKE_SOURCE_DIR = /Users/chenbaian/Desktop/monte-carlo-renderer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include vecmath/CMakeFiles/vecmath.dir/depend.make
@@ -59,16 +59,16 @@ include vecmath/CMakeFiles/vecmath.dir/flags.make
 
 vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o: ../vecmath/Matrix2f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Matrix2f.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix2f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Matrix2f.cpp.o -c /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix2f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/Matrix2f.cpp.i"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix2f.cpp > CMakeFiles/vecmath.dir/Matrix2f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix2f.cpp > CMakeFiles/vecmath.dir/Matrix2f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/Matrix2f.cpp.s"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix2f.cpp -o CMakeFiles/vecmath.dir/Matrix2f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix2f.cpp -o CMakeFiles/vecmath.dir/Matrix2f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o.requires:
 
@@ -83,16 +83,16 @@ vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o.provides.build: vecmath/CMakeFiles
 
 vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o: ../vecmath/Matrix3f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Matrix3f.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix3f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Matrix3f.cpp.o -c /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix3f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/Matrix3f.cpp.i"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix3f.cpp > CMakeFiles/vecmath.dir/Matrix3f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix3f.cpp > CMakeFiles/vecmath.dir/Matrix3f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/Matrix3f.cpp.s"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix3f.cpp -o CMakeFiles/vecmath.dir/Matrix3f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix3f.cpp -o CMakeFiles/vecmath.dir/Matrix3f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o.requires:
 
@@ -107,16 +107,16 @@ vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o.provides.build: vecmath/CMakeFiles
 
 vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o: ../vecmath/Matrix4f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Matrix4f.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix4f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Matrix4f.cpp.o -c /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix4f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/Matrix4f.cpp.i"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix4f.cpp > CMakeFiles/vecmath.dir/Matrix4f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix4f.cpp > CMakeFiles/vecmath.dir/Matrix4f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/Matrix4f.cpp.s"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/vecmath/Matrix4f.cpp -o CMakeFiles/vecmath.dir/Matrix4f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Matrix4f.cpp -o CMakeFiles/vecmath.dir/Matrix4f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o.requires:
 
@@ -131,16 +131,16 @@ vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o.provides.build: vecmath/CMakeFiles
 
 vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o: ../vecmath/Quat4f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Quat4f.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/vecmath/Quat4f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Quat4f.cpp.o -c /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Quat4f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/Quat4f.cpp.i"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/vecmath/Quat4f.cpp > CMakeFiles/vecmath.dir/Quat4f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Quat4f.cpp > CMakeFiles/vecmath.dir/Quat4f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/Quat4f.cpp.s"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/vecmath/Quat4f.cpp -o CMakeFiles/vecmath.dir/Quat4f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Quat4f.cpp -o CMakeFiles/vecmath.dir/Quat4f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o.requires:
 
@@ -155,16 +155,16 @@ vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o.provides.build: vecmath/CMakeFiles/v
 
 vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o: ../vecmath/Vector2f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Vector2f.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector2f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Vector2f.cpp.o -c /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector2f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/Vector2f.cpp.i"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector2f.cpp > CMakeFiles/vecmath.dir/Vector2f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector2f.cpp > CMakeFiles/vecmath.dir/Vector2f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/Vector2f.cpp.s"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector2f.cpp -o CMakeFiles/vecmath.dir/Vector2f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector2f.cpp -o CMakeFiles/vecmath.dir/Vector2f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o.requires:
 
@@ -179,16 +179,16 @@ vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o.provides.build: vecmath/CMakeFiles
 
 vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o: ../vecmath/Vector3f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Vector3f.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector3f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Vector3f.cpp.o -c /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector3f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/Vector3f.cpp.i"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector3f.cpp > CMakeFiles/vecmath.dir/Vector3f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector3f.cpp > CMakeFiles/vecmath.dir/Vector3f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/Vector3f.cpp.s"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector3f.cpp -o CMakeFiles/vecmath.dir/Vector3f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector3f.cpp -o CMakeFiles/vecmath.dir/Vector3f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o.requires:
 
@@ -203,16 +203,16 @@ vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o.provides.build: vecmath/CMakeFiles
 
 vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o: ../vecmath/Vector4f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Vector4f.cpp.o -c /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector4f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/Vector4f.cpp.o -c /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector4f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/Vector4f.cpp.i"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector4f.cpp > CMakeFiles/vecmath.dir/Vector4f.cpp.i
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector4f.cpp > CMakeFiles/vecmath.dir/Vector4f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/Vector4f.cpp.s"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mit/baian/Desktop/monte-carlo-renderer/vecmath/Vector4f.cpp -o CMakeFiles/vecmath.dir/Vector4f.cpp.s
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath/Vector4f.cpp -o CMakeFiles/vecmath.dir/Vector4f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o.requires:
 
@@ -247,9 +247,9 @@ vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o
 vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o
 vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/build.make
 vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libvecmath.a"
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean_target.cmake
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vecmath.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libvecmath.a"
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean_target.cmake
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vecmath.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vecmath/CMakeFiles/vecmath.dir/build: vecmath/libvecmath.a
@@ -267,10 +267,10 @@ vecmath/CMakeFiles/vecmath.dir/requires: vecmath/CMakeFiles/vecmath.dir/Vector4f
 .PHONY : vecmath/CMakeFiles/vecmath.dir/requires
 
 vecmath/CMakeFiles/vecmath.dir/clean:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean.cmake
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean.cmake
 .PHONY : vecmath/CMakeFiles/vecmath.dir/clean
 
 vecmath/CMakeFiles/vecmath.dir/depend:
-	cd /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mit/baian/Desktop/monte-carlo-renderer /mit/baian/Desktop/monte-carlo-renderer/vecmath /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath /mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chenbaian/Desktop/monte-carlo-renderer /Users/chenbaian/Desktop/monte-carlo-renderer/vecmath /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath /Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vecmath/CMakeFiles/vecmath.dir/depend
 

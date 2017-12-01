@@ -1,4 +1,4 @@
-# Install script for directory: /mit/baian/Desktop/monte-carlo-renderer
+# Install script for directory: /Users/chenbaian/Desktop/monte-carlo-renderer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,14 +27,9 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/cmake_install.cmake")
+  include("/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/vecmath/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mit/baian/Desktop/monte-carlo-renderer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/chenbaian/Desktop/monte-carlo-renderer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
