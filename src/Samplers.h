@@ -20,5 +20,9 @@ public:
     static std::vector<Ray> sample(Ray inR, Hit h, int num=4);
 };
 
+class ImportanceSampler {
+public:
+    static std::vector<Ray> sample(Ray inR, Hit h, int num=4);
+};
 
 #endif //A4_SAMPLERS_H

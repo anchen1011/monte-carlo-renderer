@@ -8,10 +8,18 @@ PerspectiveCamera {
 
 
 Lights {
-    numLights 1
+    numLights 3
     DirectionalLight {
         direction 0.5 0.3 -1
         color 0.9 0.9 0.9 
+    }
+    DirectionalLight {
+        direction -0.5 -0.3 -1
+        color 0.3 0.9 0.9 
+    }
+    DirectionalLight {
+        direction 0 0 1
+        color 0.2 0.2 0.2 
     }
 }
 
@@ -31,7 +39,7 @@ Materials {
 }
 
 Group {
-    numObjects 2
+    numObjects 1
     MaterialIndex 0
 	Transform {
 	    Translate  0.5 -2.6 0 
@@ -40,9 +48,4 @@ Group {
 			obj_file models/bunny_1k.obj
 		}
 	}
-    MaterialIndex 0
-      Plane {
-	normal 0 1 0
-        offset -2
-    }
 }

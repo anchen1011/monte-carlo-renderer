@@ -29,7 +29,7 @@ Renderer::Render()
     // loop through all the pixels in the image
     // generate all the samples
 
-    // This look generates camera rays and callse traceRay.
+    // This look generates camera rays and calls traceRay.
     // It also write to the color, normal, and depth images.
     // You should understand what this code does.
     Camera* cam = _scene.getCamera();
@@ -101,12 +101,12 @@ Renderer::traceRay(const Ray &r,
                             * std::max(0.0f,Vector3f::dot(-r.getDirection().normalized(),h.getNormal().normalized()));
         }
 
-        //std::cout << illumination.x() << "," << illumination.y() << "," << illumination.z() << std::endl;
+        // std::cout << illumination.x() << "," << illumination.y() << "," << illumination.z() << std::endl;
 
         if (bounces == 0)
             return illumination;
 
-        //auto outRs = NaiveSampler::sample(r, h);
+        // auto outRs = NaiveSampler::sample(r, h);
         auto outRs = MonteCarloSampler::sample(r, h, 4);
 
         for (const Ray &outR:outRs) {

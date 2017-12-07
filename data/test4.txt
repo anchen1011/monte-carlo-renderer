@@ -8,16 +8,24 @@ PerspectiveCamera {
 
 
 Lights {
-    numLights 1
+    numLights 3
+    DirectionalLight {
+        direction 0.5 0.3 -1
+        color 0.9 0.9 0.9 
+    }
     DirectionalLight {
         direction -0.5 -0.3 -1
-        color 0 0 0
+        color 0.3 0.9 0.9 
+    }
+    DirectionalLight {
+        direction 0 0 1
+        color 0.2 0.2 0.2 
     }
 }
 
 Background {
-    color 100 100 100
-    ambientLight 0 0 0
+    color 0.2 0 0.6
+    ambientLight 0.1 0.1 0.1
 	cubeMap tex/church
 }
 
@@ -31,18 +39,13 @@ Materials {
 }
 
 Group {
-    numObjects 2
+    numObjects 1
     MaterialIndex 0
 	Transform {
-	    Translate  0.5 -2.6 0 
-	    Scale  12 12 12 
+	    Translate  0 -4 0 
+	    Scale  0.09 0.09 0.09 
 		TriangleMesh {
-			obj_file models/bunny_1k.obj
+			obj_file models/helmet.obj
 		}
 	}
-    MaterialIndex 0
-      Plane {
-	normal 0 1 0
-        offset -2
-    }
 }
