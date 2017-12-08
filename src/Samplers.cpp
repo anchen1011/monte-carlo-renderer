@@ -26,7 +26,7 @@ std::vector<Ray> MonteCarloSampler::sample(Ray inR, Hit h, int num) {
     auto normal = h.getNormal().normalized();
     auto origin = inR.pointAtParameter(h.getT());
     auto ret = std::vector<Ray>();
-    if (isnan(normal.x()) or isnan(normal.x()) or isnan(normal.x())) {
+    if (std::isnan(normal.x()) or std::isnan(normal.x()) or std::isnan(normal.x())) {
         return ret;
     }
     for(int i = 0; i < num; i++) {
@@ -64,7 +64,7 @@ std::vector<Ray> ImportanceSampler::sample(Ray inR, Hit h, int num) {
     auto normal = h.getNormal().normalized();
     auto origin = inR.pointAtParameter(h.getT());
     auto ret = std::vector<Ray>();
-    if (isnan(normal.x()) or isnan(normal.x()) or isnan(normal.x())) {
+    if (std::isnan(normal.x()) or std::isnan(normal.x()) or std::isnan(normal.x())) {
         return ret;
     }
     for(int i = 0; i < num; i++) {
