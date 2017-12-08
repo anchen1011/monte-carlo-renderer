@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="a4" targetName="vecmath" />
       <config projectName="a4" targetName="a4" />
+      <config projectName="a4" targetName="vecmath" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,42 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ca63a03-d4fc-48e7-b229-b59505ed45da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/scene07_arch (copy).txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generate_images.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generate_images.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a01d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a01n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a02d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a02n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a03d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a03n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a04d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a04n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a05d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a05n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a06d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a06n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a07d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample_out/a07n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_cases.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tex/church/back.png" afterPath="$PROJECT_DIR$/data/tex/church/back.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/scene06_bunny_1k.txt" afterPath="$PROJECT_DIR$/data/scene06_bunny_1k.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Material.cpp" afterPath="$PROJECT_DIR$/src/Material.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Renderer.cpp" afterPath="$PROJECT_DIR$/src/Renderer.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Samplers.cpp" afterPath="$PROJECT_DIR$/src/Samplers.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Samplers.h" afterPath="$PROJECT_DIR$/src/Samplers.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +30,8 @@
       <file leaf-file-name="Renderer.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="109" column="21" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="31" />
+            <state relative-caret-position="369">
+              <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -75,8 +42,8 @@
       <file leaf-file-name="Samplers.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Samplers.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+            <state relative-caret-position="780">
+              <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
               <folding>
                 <element signature="e#40#61#0" expanded="true" />
               </folding>
@@ -87,7 +54,7 @@
       <file leaf-file-name="Samplers.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Samplers.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="255">
               <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding />
             </state>
@@ -97,8 +64,8 @@
       <file leaf-file-name="Material.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Material.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,7 +74,7 @@
       <file leaf-file-name="Material.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Material.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="630">
               <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
             </state>
@@ -221,12 +188,13 @@
       <workItem from="1512161605298" duration="2607000" />
       <workItem from="1512432327605" duration="4351000" />
       <workItem from="1512438904581" duration="2892000" />
-      <workItem from="1512612843518" duration="3142000" />
+      <workItem from="1512612843518" duration="3501000" />
+      <workItem from="1512765857742" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16760000" />
+    <option name="totallyTimeSpent" value="17376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="405" y="23" width="740" height="777" extended-state="0" />
@@ -237,12 +205,12 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -266,6 +234,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Samplers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding>
+            <element signature="e#40#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Samplers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Material.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Material.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -495,7 +507,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Material.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="630">
           <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding />
         </state>
@@ -503,7 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Samplers.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="255">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
@@ -511,16 +523,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Material.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Samplers.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="780">
+          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
           <folding>
             <element signature="e#40#61#0" expanded="true" />
           </folding>
@@ -529,8 +541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="109" column="21" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="31" />
+        <state relative-caret-position="369">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>

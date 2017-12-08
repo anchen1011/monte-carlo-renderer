@@ -36,6 +36,9 @@ Renderer::Render()
     for (int y = 0; y < h; ++y) {
         float ndcy = 2 * (y / (h - 1.0f)) - 1.0f;
         for (int x = 0; x < w; ++x) {
+
+            std::cout << x << "," << y << std::endl;
+
             float ndcx = 2 * (x / (w - 1.0f)) - 1.0f;
             // Use PerspectiveCamera to generate a ray.
             // You should understand what generateRay() does.
