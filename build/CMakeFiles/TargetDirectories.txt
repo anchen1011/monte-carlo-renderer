@@ -1,6 +1,0 @@
-/home/an/Git/monte-carlo-renderer/build/CMakeFiles/edit_cache.dir
-/home/an/Git/monte-carlo-renderer/build/CMakeFiles/rebuild_cache.dir
-/home/an/Git/monte-carlo-renderer/build/CMakeFiles/a4.dir
-/home/an/Git/monte-carlo-renderer/build/vecmath/CMakeFiles/rebuild_cache.dir
-/home/an/Git/monte-carlo-renderer/build/vecmath/CMakeFiles/edit_cache.dir
-/home/an/Git/monte-carlo-renderer/build/vecmath/CMakeFiles/vecmath.dir
