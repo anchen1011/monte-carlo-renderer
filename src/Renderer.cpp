@@ -109,15 +109,25 @@ Renderer::traceRay(const Ray &r,
         if (bounces == 0)
             return illumination;
 
-        // auto outRs = NaiveSampler::sample(r, h);
-        // std::cout << bounces << std::endl;
-        auto outRs = MonteCarloSampler::sample(r, h, 30);
+        int num = 30;
+        std::vector<float> prob = std::vector<float>();
+        for (int i = 0; i < num; i++) {
+            prob.push_back(1.0f);
+        }
 
-        for (const Ray &outR:outRs) {
-            float volume = 1.0f / outRs.size();
+        // auto outRs = NaiveSampler::sample(r, h, prob);
+        auto outRs = MonteCarloSampler::sample(r, h, num, prob);
+
+        float sum = 0;
+        for (auto p : prob) {
+            sum += 1 / p;
+        }
+        float volume = 0.5f / sum;
+        for (int i = 0; i < outRs.size(); i++) {
+            Ray outR = outRs[i];
             auto ratioOutR = h.getMaterial()->shadeBrdf(r,outR,h);
             auto tmpHit2 = Hit();
-            illumination += volume * ratioOutR * traceRay(outR, esp, bounces-1, tmpHit2)
+            illumination += volume / prob[i] * ratioOutR * traceRay(outR, esp, bounces-1, tmpHit2)
                             * std::max(0.0f,Vector3f::dot(-r.getDirection().normalized(),h.getNormal().normalized()));
         }
 
