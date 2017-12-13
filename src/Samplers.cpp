@@ -60,6 +60,7 @@ float d(Vector3f vm, Vector3f n, float m=0.8) {
 
 }
 
+/**
 std::vector<Ray> ImportanceSampler::sample(Ray inR, Hit h, int num) {
     auto normal = h.getNormal().normalized();
     auto origin = inR.pointAtParameter(h.getT());
@@ -96,3 +97,4 @@ std::vector<Ray> ImportanceSampler::sample(Ray inR, Hit h, int num) {
     }
     return ret;
 }
+**/
