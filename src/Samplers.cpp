@@ -35,6 +35,9 @@ std::vector<Ray> MonteCarloSampler::sample(Ray inR, Hit h, int num) {
             float a = dis(gen);
             float b = dis(gen);
             float c = dis(gen);
+            if (a * a + (b * b) + (c * c) > 1.0f) {
+                continue;
+            }
             //std::cout << a << " " << b << " " << c << std::endl;
             //std::cout << normal.x() << " " << normal.y() << " " << normal.z() << std::endl;
             dir = Vector3f(a,b,c).normalized();
