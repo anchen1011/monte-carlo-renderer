@@ -11,7 +11,7 @@ std::random_device rd;
 std::mt19937 gen(rd());
 std::uniform_real_distribution<> dis(-1.0, 1.0);
 
-std::vector<Ray> NaiveSampler::sample(Ray inR, Hit h, int num) {
+std::vector<Ray> NaiveSampler::sample(Ray inR, Hit h, int num, std::vector<float> &prob) {
     auto normal = h.getNormal();
     auto origin = inR.pointAtParameter(h.getT());
     auto ret = std::vector<Ray>();
@@ -22,11 +22,11 @@ std::vector<Ray> NaiveSampler::sample(Ray inR, Hit h, int num) {
     return ret;
 }
 
-std::vector<Ray> MonteCarloSampler::sample(Ray inR, Hit h, int num) {
+std::vector<Ray> MonteCarloSampler::sample(Ray inR, Hit h, int num, std::vector<float> &prob) {
     auto normal = h.getNormal().normalized();
     auto origin = inR.pointAtParameter(h.getT());
     auto ret = std::vector<Ray>();
-    if (std::isnan(normal.x()) or std::isnan(normal.x()) or std::isnan(normal.x())) {
+    if (isnan(normal.x()) or isnan(normal.x()) or isnan(normal.x())) {
         return ret;
     }
     for(int i = 0; i < num; i++) {
@@ -38,10 +38,7 @@ std::vector<Ray> MonteCarloSampler::sample(Ray inR, Hit h, int num) {
             if (a * a + (b * b) + (c * c) > 1.0f) {
                 continue;
             }
-            //std::cout << a << " " << b << " " << c << std::endl;
-            //std::cout << normal.x() << " " << normal.y() << " " << normal.z() << std::endl;
             dir = Vector3f(a,b,c).normalized();
-            //std::cout << Vector3f::dot(dir, normal) << std::endl;
             if (Vector3f::dot(dir, normal) > 0) {
                 break;
             }
@@ -63,41 +60,28 @@ float d(Vector3f vm, Vector3f n, float m=0.8) {
 
 }
 
-/**
-std::vector<Ray> ImportanceSampler::sample(Ray inR, Hit h, int num) {
+std::vector<Ray> ImportanceSampler::sample(Ray inR, Hit h, int num, std::vector<float> &prob) {
     auto normal = h.getNormal().normalized();
     auto origin = inR.pointAtParameter(h.getT());
     auto ret = std::vector<Ray>();
-    if (std::isnan(normal.x()) or std::isnan(normal.x()) or std::isnan(normal.x())) {
+    if (isnan(normal.x()) or isnan(normal.x()) or isnan(normal.x())) {
         return ret;
     }
     for(int i = 0; i < num; i++) {
         Vector3f o;
-        bool flag = false;
-        for (int j = 0; j < 20; j++) {
+        float p;
+        for (int j = 0; j < 1000; j++) {
             auto m = Vector3f(dis(gen),dis(gen),dis(gen)).normalized();
             if (Vector3f::dot(m, normal) > 0) {
                 o = 2 * Vector3f::dot(-inR.getDirection().normalized(), m) * m + inR.getDirection().normalized();
-                float p = d(m, normal) * Vector3f::dot(m, normal) / 4.0f / Vector3f::dot(o,m);
-                if (((double) rand() / (RAND_MAX)) <= p) {
-                    flag = true;
+                p = d(m, normal) * Vector3f::dot(m, normal) / 4.0f / Vector3f::dot(o,m);
+                if (fabs(dis(gen)) <= p) {
                     break;
                 }
             }
         }
-        if (flag) {
-            ret.push_back(Ray(origin, o));
-        } else {
-            Vector3f dir;
-            while(true) {
-                dir = Vector3f(dis(gen),dis(gen),dis(gen)).normalized();
-                if (Vector3f::dot(dir, normal) > 0) {
-                    break;
-                }
-            }
-            ret.push_back(Ray(origin, dir));
-        }
+        ret.push_back(Ray(origin, o));
+        prob[i] = p;
     }
     return ret;
 }
-**/
